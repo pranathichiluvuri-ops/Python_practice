@@ -1,0 +1,14 @@
+a = input()
+blank = 0
+tab = 0
+newline = 0
+for i in a:
+    if i == " ":
+        blank = blank + 1
+    if i == "   ":
+        tab = tab + 1
+    if i == "\n":
+        newline = newline + 1
+print("Blanks:", blank)
+print("Tabs:", tab)
+print("Newlines:", newline)
