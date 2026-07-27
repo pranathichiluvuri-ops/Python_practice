@@ -6,6 +6,6 @@ elif a % 2 == 0:
 elif a % 3 == 0:
     print("True")
 elif a % 5 == 0:
-    print("Ture")
+    print("True")
 else:
-    print("Flase")
+    print("False")
