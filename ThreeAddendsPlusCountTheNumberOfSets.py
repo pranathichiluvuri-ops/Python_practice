@@ -8,4 +8,4 @@ for i in range(l):
             if a[i] + a[j] + a[k] == b:
                 print("Addends =", a[i], a[j], a[k])
                 count = 1 + count
-print("No.of sets =", count)
+print("No.of sets =", count) 
